@@ -1,10 +1,32 @@
-.classe1 {
-    color: red;
-    font-weight: 800;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+body {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+
+    background-color: #000;
+    border-bottom: 3px solid #32b9cd;
 }
-.classe2 {
-    color: blue;
-    font-weight: 800;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+.header .container {
+    color: #32b9cd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+}
+
+.header .container .navbar {
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 30px;
+    color: #e3b062;
+
+    list-style: none;
+}
+
+.active {
+    font-weight: 1000;
 }
